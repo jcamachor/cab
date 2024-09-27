@@ -11,7 +11,8 @@
     "relaxed-json": "^1.0.3",
     "semaphore-async-await": "^1.5.1",
     "snowflake-sdk": "^1.6.7",
-    "table": "^6.8.0"
+    "table": "^6.8.0",
+    "sqlite3": "^5.1.7"
   },
   "engines": {
     "node": ">=15.0.0"
