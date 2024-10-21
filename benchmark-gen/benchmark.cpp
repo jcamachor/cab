@@ -673,7 +673,7 @@ struct Generator {
          case 20: return scale_factor * 46310 * 8;
          case 21: return scale_factor * 113140 * 8;
          case 22: return scale_factor * 19820 * 8;
-         case 23: return scale_factor * (72530 + 97780) * 8;
+         case 23: return scale_factor * (72530 + 97780) * 8 * 5; // Times 5 over original weight because we have included lineitem refresh and lineitem ~4 times the size of orders
          default: throw;
       }
    }
